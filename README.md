@@ -1,46 +1,52 @@
-# DART-WEEK-ONE-
-Data Types Implementation:
+# Dart Assignment – Data Types & Control Flow
 
-Define Variables: Create a Dart program that defines and initializes variables of the following types: int, double, String, bool, and List.
+This Dart program demonstrates **data types, type conversions, functions, control flow, and loops** in a single file.
 
+---
 
+## 📌 Features Implemented
 
+1. **Data Types**
+   - Defines and initializes variables of type:
+     - `int`, `double`, `String`, `bool`, `List`.
 
-Type Conversion: Implement functions to:
-Convert a String to int and double.
-Convert an int to String and double.
+2. **Type Conversion**
+   - String → int and double.
+   - int → String and double.
 
+3. **Function: `convertAndDisplay`**
+   - Accepts a string number.
+   - Converts it to int and double.
+   - Prints results.
 
+4. **Control Flow**
+   - **If-Else**:
+     - Check if a number is positive, negative, or zero.
+     - Check voting eligibility (18+).
+   - **Switch Case**:
+     - Prints the day of the week based on an integer.
+   - **Loops**:
+     - For loop: prints numbers `1–10`.
+     - While loop: prints numbers `10–1`.
+     - Do-while loop: prints numbers `1–5`.
 
+5. **Complex Example**
+   - Iterates over a list of integers.
+   - Prints each number.
+   - Checks if even or odd.
+   - Categorizes numbers as:
+     - Small (1–10)
+     - Medium (11–100)
+     - Large (101+)
 
-Function for Conversion: Write a function convertAndDisplay that:
-Takes a String representing a number.
-Converts the String to int and double.
-Prints the results.
+---
 
+## ▶️ Running the Program
 
+Make sure Dart SDK is installed, then run:
 
-
-Control Flow:
-
-If-Else Statements: Implement a Dart program that:
-Uses if-else statements to check if a number is positive, negative, or zero.
-Uses if-else statements to determine if a person is eligible to vote based on age (must be 18 or older).
-Switch Case: Create a program that:
-Uses a switch statement to print the day of the week based on a given int (1 for Monday, 2 for Tuesday, etc.).
-Loops: Implement the following:
-A for loop that prints numbers from 1 to 10.
-A while loop that prints numbers from 10 to 1.
-A do-while loop that prints numbers from 1 to 5.
-
-
-
-
-Combining Data Types and Control Flow:
-
-Complex Example: Write a Dart program that:
-Defines a List of int numbers.
-Uses a for loop to iterate through the list and:
-Print each number.
-Use if-else statements to check if the number is even or odd.
-Implements a switch statement to categorize numbers into "small" (1-10), "medium" (11-100), or "large" (101+).
+```bash
+dart assgn.dart
+Author
+justus mwendwa
+justusmwendwa022@gmail.com
